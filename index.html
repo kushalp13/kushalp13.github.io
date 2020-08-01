@@ -1,45 +1,37 @@
 <html>
-    <head>
-        <title>Welcome!</title>
-        <style>
-          .button {
-                height: 100px;
-                width: 150px;
-                display: inline-block;
-                /* padding: 0.2em 1.45em; */
-                margin: 0.1em;
-                border: 0.15em solid #CCCCCC;
-                box-sizing: border-box;
-                text-decoration: none;
-                font-family: 'Segoe UI', 'Roboto', sans-serif;
-                font-weight: 400;
-                color: #000000;
-                background-color: #CCCCCC;
-                text-align: center;
-                position: relative;
-              }
-
-              .button:hover {
-                border-color: #7a7a7a;
-              }
-
-              .button:active {
-                background-color: #999999;
-              }
-
-              @media all and (max-width:30em) {
-                .button {
-                  display: block;
-                  margin: 0.2em auto;
-                }
-          }
-          </style>
-    </head>
-    <body style="text-align: center;">
-      <h2>Welcome Choose User Type To Go Further!</h2>
-      <div style="border: 2px solid #000; padding-top: 10px; height: 250px">
-        <button type="button" class="button"><a href="employee_html/login.html"><h2>I'm an employee</h2></a></button>
-        <button type="button" class="button"><a href="head/login.html"><h2>I'm Head</h2></a></button>
+  <head>
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="./style1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="split left">
+      <div class="centered1" style="margin-top: -40%;">
+        <header><h2>Welcome, Choose Your User Type To Continue</h2></header>
+        <button type="button" class="button">
+          <a href="employee_html/login.html"><h2>I'm an employee</h2></a>
+        </button>
+        <br> <br>
+        <button type="button" class="button">
+          <a href="head/login.html"><h2>I'm Head</h2></a>
+        </button>
       </div>
-    </body>
+    </div>
+    <div class="split right">
+      <div class="centered2">
+        Welcome To Project Managment System!
+        In this, you and your team know where to go to ask questions, share updates about progress and stay in the loop.
+        Work becomes faster and more effective.
+      </div>
+    </div>
+  </body>
 </html>
