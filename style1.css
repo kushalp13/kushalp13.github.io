@@ -33,7 +33,9 @@
     vertical-align: top;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    text-align: center;
+    margin-top: 0px;
     transform: translate(-50%, -50%);
   }
   .centered2 {
