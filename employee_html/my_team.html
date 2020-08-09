@@ -1,25 +1,10 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <style>
-         table {
-         font-family: arial, sans-serif;
-         border-collapse: collapse;
-         width: 100%;
-         }
-         td, th {
-         border: 1px solid #dddddd;
-         text-align: left;
-         padding: 8px;
-         }
-         tr:nth-child(even) {
-         background-color: #dddddd;
-         }
-      </style>
+      <title>Team</title>
    </head>
    <body>
-      <h2>List Of Teams</h2>
-      <table>
+      <!-- <table>
          <tr>
             <td>Team Id : SDE07</td>
             <td>Status : Currently Working</td>
@@ -34,6 +19,49 @@
             <td>Your Task : Completed</td>
             <td>GitHub Link : <a href="https://github.com/">AlgoLibrary</a></td>
          </tr>
-      </table>
+      </table> -->
+      <header>
+         <link rel="stylesheet" href="./css/navbar.css">
+         <div class="container">
+           <h1 class="logo">Slack</h1>
+           <nav>
+             <ul>
+                 <li><a href="home_page.html">Home</a></li>
+                 <li><a href="my_profile.html">My Profile</a></li>
+                 <li><a href="my_project.html">My Project</a></li>
+                 <li><a href="my_team.html">My Team</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+           </nav>
+         </div>
+       </header>
+      <link rel="stylesheet" href="css/table.css">
+          <table class="content-table">
+            <thead>
+              <tr>
+                <th>Team Id</th>
+                <th>Status</th>
+                <th>Task</th>
+                <th>Task Status</th>
+                <th>GitHub Link</th>
+              </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>SDE07</td>
+                  <td>Currently Working</td>
+                  <td>Creating API</td>
+                  <td>Incomplete</td>
+                  <td><a href="https://github.com/">FastShare</a></td>
+               </tr>
+               <tr>
+                  <td>SDE01</td>
+                  <td>Worked In Past</td>
+                  <td>Implementing Heavy Light Decomposition and Flatten Tree and doing stress testing</td>
+                  <td>Completed</td>
+                  <td><a href="https://github.com/">AlgoLibrary</a></td>
+               </tr>
+            </tbody>
+          </table>
    </body>
 </html>

@@ -4,18 +4,15 @@
     <meta charset="utf-8" />
     <title>َWelcome!</title>
     <link rel="stylesheet" href="./css/hlogin_style.css">
+    <script src="./js/login.js"></script>
   </head>
   <body>
     <div class="box">
       <form action="index.html" method="post">
         <h1 style="margin-top: -10px;">Login</h1>
         <hr style="margin-left: 15px; margin-right: 10px;">
-        <input type="text" name="" placeholder="Username" />
-        <a href="./home_page.html" style="text-decoration: none;"
-          ><button type="button" class="button">
-            LogIn
-          </button>
-        </a>
+        <input type="text" name="" id="uname" placeholder="Username" />
+        <button type="button" class="button" onclick="login()">login</button>
       </form>
     </div>
   </body>

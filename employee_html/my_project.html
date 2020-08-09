@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <style>
-         table {
-         font-family: arial, sans-serif;
-         border-collapse: collapse;
-         width: 100%;
-         }
-         td, th {
-         border: 1px solid #dddddd;
-         text-align: left;
-         padding: 8px;
-         }
-         tr:nth-child(even) {
-         background-color: #dddddd;
-         }
-      </style>
-   </head>
+   <head></head>
    <body>
-      <h2>List Of Projects</h2>
-      <table>
-         <tr>
-            <td>Description : Creating File Sharing Platfrom Using AWS</td>
-            <td>Status : Active</td>
-            <td>Task : Creating API</td>
-            <td>Task Status : Incomplete</td>
-            <td><progress value="67" max="100">Progress - 67%</meter> </td>
-            <td>GitHub Link : <a href="https://github.com/">FastShare</a></td>
-         </tr>
-         <tr>
-            <td>Description : Creating Algorithms Library With Optimised Implementation</td>
-            <td>Status : Completed</td>
-            <td>Task : Implementing Heavy Light Decomposition and Flatten Tree and doing stress testing</td>
-            <td>Task Status : Completed</td>
-            <td><progress value="100" max="100">Progress - 100%</meter> </td>
-            <td>GitHub Link : <a href="https://github.com/">AlgoLibrary</a></td>
-         </tr>
-      </table>
+      <header>
+         <link rel="stylesheet" href="./css/navbar.css">
+         <div class="container">
+           <h1 class="logo">Slack</h1>
+           <nav>
+             <ul>
+                 <li><a href="home_page.html">Home</a></li>
+                 <li><a href="my_profile.html">My Profile</a></li>
+                 <li><a href="my_project.html">My Project</a></li>
+                 <li><a href="my_team.html">My Team</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+           </nav>
+         </div>
+       </header>
+      <link rel="stylesheet" href="css/table.css">
+          <table class="content-table">
+            <thead>
+              <tr>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Task</th>
+                <th>Task Status</th>
+                <th>Percentage Of Task Completed</th>
+                <th>GitHub Link</th>
+              </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Creating File Sharing Platfrom Using AWS</td>
+                  <td>Active</td>
+                  <td>Creating API</td>
+                  <td>Incomplete</td>
+                  <td><progress value="67" max="100">Progress - 67%</meter> </td>
+                  <td><a href="https://github.com/">FastShare</a></td>
+               </tr>
+               <tr>
+                  <td>Creating Algorithms Library With Optimised Implementation</td>
+                  <td>Completed</td>
+                  <td>Implementing Heavy Light Decomposition and Flatten Tree and doing stress testing</td>
+                  <td>Completed</td>
+                  <td><progress value="100" max="100">Progress - 100%</meter> </td>
+                  <td><a href="https://github.com/">AlgoLibrary</a></td>
+               </tr>
+            </tbody>
+          </table>
    </body>
 </html>
