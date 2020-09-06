@@ -16,3 +16,4 @@ function login()
             window.location = "/head/home_page.html";
 		}
 	}		
+document.getElementById("sendlogin").addEventListener("click",login);

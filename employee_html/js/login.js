@@ -25,3 +25,4 @@ function login()
             window.location = "/employee_html/home_page.html";
 		}
 	}	
+document.getElementById("sendlogin").addEventListener("click",login);
